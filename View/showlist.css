@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.n1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    background:none; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgb(49, 33, 79);
+    z-index: 2;
+}
+
+
+h2 {
+    text-align: center;
+    color: #3a186d;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #461f79;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #d4bbff;
+}
+
+tr:nth-child(even) {
+    background-color: #e8c7ff;
+}
+
+.tr1:hover {
+    background-color: #ffffff;
+}
+/* Titre du formulaire */
+h3 {
+    text-align: center;
+    color: #444; /* Gris foncé */
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style des labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555; /* Gris moyen */
+}
+
+/* Champs input */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #6c757d; /* Gris foncé */
+    border-radius: 5px;
+    font-size: 16px;
+    background: #ffffff; /* Fond blanc */
+    color: #333; /* Texte sombre */
+    transition: 0.3s ease-in-out;
+}
+
+/* Effet sur les champs au focus */
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #400084; /* Orange */
+    outline: none;
+    box-shadow: 0 0 8px rgba(92, 8, 218, 0.4);
+}
+
+
+button[name="updateUser"] {
+    background: #4a049b; /* Orange */
+    color: #ffffff; /* Texte blanc */
+    border: 2px solid #5704ab; /* Bordure plus foncée */
+    padding: 12px 15px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+button[name="updateUser"]:hover {
+    background: #ce85ff; /* Orange plus foncé */
+    border-color: #3b007e;
+}
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+    .form-container {
+        width: 90%;
+    }
+}
+

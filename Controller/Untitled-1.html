@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concertify - Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Concertify</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="concerts.html">Concerts</a></li>
+                <li><a href="billetterie.html">Billetterie</a></li>
+                <li><a href="communaute.html">Communauté</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher un concert...">
+            <button>🔍</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video autoplay muted loop id="bg-video">
+            <source src="concert.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Vivez des expériences musicales uniques</h1>
+            <a href="concerts.html" class="cta-button">Découvrez les concerts</a>
+        </div>
+    </section>
+
+    <!-- Concerts à ne pas manquer -->
+    <section class="featured-concerts">
+        <h2>Concerts à ne pas manquer</h2>
+        <div class="concert-grid">
+            <div class="concert-card">
+                <img src="concert1.jpg" alt="Concert 1">
+                <h3>Artiste 1</h3>
+                <p>Lieu, Date</p>
+            </div>
+            <div class="concert-card">
+                <img src="concert2.jpg" alt="Concert 2">
+                <h3>Artiste 2</h3>
+                <p>Lieu, Date</p>
+            </div>
+            <!-- Ajouter plus de cartes ici -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Liens utiles</h4>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">CGU</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-icons">
+                    <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <form>
+                    <input type="email" placeholder="Votre email">
+                    <button type="submit">S'inscrire</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

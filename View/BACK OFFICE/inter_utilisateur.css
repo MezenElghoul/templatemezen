@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative; 
+}
+.n1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+div {
+    position: absolute;
+    z-index: 2; 
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 20px;
+    padding: 30px;
+    top: 70px; 
+    left: 600px; 
+    border-radius: 15px;  
+    border: 2px solid rgb(251, 246, 255); 
+    background-color: rgba(255, 255, 255, 0.8); 
+    width: 400px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block; 
+    margin-top: 20px; 
+    color: rgb(51, 22, 73);
+}
+
+.button1 {
+    z-index: 2;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 130px; 
+    height: 60px; 
+    top: 680px; 
+    left: 300px; 
+    transform: translateX(-50%); 
+    padding: 10px; 
+    font-size: 20px; 
+    background-color: #c3a7ff; 
+    color: rgb(255, 255, 255); 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 25px;
+    transition: background 0.3s;
+    box-shadow: 0px 4px 0px #7d53d7;
+}
+
+
+
+button:active {
+    background-color: rgb(62, 2, 107);
+}
+
+.input-box {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    color: rgb(0, 0, 0); 
+    font-size: 16px;
+    outline: none;
+} 
